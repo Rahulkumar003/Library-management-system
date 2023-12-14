@@ -3,13 +3,15 @@ Library Management System
 This is a Library Management System application developed using Object-Oriented Programming (OOP) principles. The system provides functionalities for both librarians and members/students.
 
 Table of Contents
-Features
-How to Run
-Input Validation
-Error Handling
-OOP Principles
-Sample Run
-Features
+
+1.Features
+2.How to Run
+3.Input Validation
+4.Error Handling
+5.OOP Principles
+
+
+1.Features
 Add Book:
 Allows librarians to add a new book to the library.
 Takes input for book details (title, author, total copies).
@@ -50,7 +52,7 @@ Calculates and displays the fine amount for a book if it's returned after the du
 Exit:
 Terminates the application.
 
-How to Run
+2.How to Run
 
 To run the Library Management System:
 Ensure that Maven is installed on your system.
@@ -58,12 +60,13 @@ Clone the repository: git clone <repository-url>
 Navigate to the project directory.
 Run the command: mvn clean compile exec:java
 
-Input Validation
+3.Input Validation
 The system implements input validation to handle incorrect or invalid user inputs.
 It checks for valid inputs during member registration, book addition, and various other interactions.
-Error Handling
+
+4.Error Handling
 Proper error handling is implemented to display user-friendly error messages.
 For example, when a member tries to log in and is not registered, an appropriate error message is shown.
 
-OOP Principles
+5.OOP Principles
 The code follows Object-Oriented Programming principles, including encapsulation, inheritance, and polymorphism.
